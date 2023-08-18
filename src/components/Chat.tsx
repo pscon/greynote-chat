@@ -6,10 +6,11 @@ import Add from "../assets/images/add.png";
 import More from "../assets/images/more.png";
 import Messages from "./Messages";
 import InputCon from "./InputCon";
+import { ChatContext } from "../contexts/ChatContext";
 // import { ChatContext } from "../context/ChatContext";
 
 const Chat = () => {
-//   const { data } = useContext(ChatContext);
+  const { data } = useContext(ChatContext);
 
   return (
     <Box  flex="2">
@@ -21,7 +22,7 @@ const Chat = () => {
     padding="10px"
     color="lightgray"
   >
-    {/* <Text>{data.user?.displayName}</Text> */} hhshh hshs 
+    <Text>{data.user?.displayName}</Text> 
     <Flex  gap="10px">
       <Image src={Cam} alt="" height="24px" cursor="pointer" />
       <Image src={Add} alt="" height="24px" cursor="pointer" />
