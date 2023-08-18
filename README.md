@@ -22,12 +22,6 @@ npm run dev
 yarn dev
 ```
 
-- Run the tests
-
-```bash
-npm run test
-```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app.ts`. The page auto-updates as you edit the file.
@@ -38,11 +32,24 @@ After you start the application, you will need to set up an additional `.env` fi
 
 ### Obtaining API Keys
 
-To obtain the API keys, follow these steps:
+To obtain the Firebase API keys, follow these steps:
 
-1. Visit the TMDb website at [https://developer.themoviedb.org/reference/intro/authentication](https://developer.themoviedb.org/reference/intro/authentication).
-2. Register for an account or log in if you already have one.
-3. Once logged in, you can access your API keys from the developer dashboard.
+1. **Create a Firebase Project:**
+
+   - Go to [Firebase Console](https://console.firebase.google.com/).
+   - Add a new project and name it.
+
+2. **Project Settings:**
+
+   - In the project dashboard, go to Project settings.
+
+3. **Configure Web App:**
+
+   - Under "Your apps," add a web app.
+   - Firebase will provide a code snippet.
+
+4. **API Key:**
+   - In the snippet, find the `apiKey` value – that's your Firebase API key.
 
 ### .env File Setup
 
@@ -73,10 +80,9 @@ GreyNote Chat App is a sleek text messaging platform that enables users to initi
 - React.js
 - TypeScript
 - Chakra UI
-- Context Api
+- Context API
 - Firebase
 - Formik
-- ESLint
 
 ### Project structure explanation
 
@@ -85,19 +91,14 @@ GreyNote Chat App is a sleek text messaging platform that enables users to initi
     - `components` - Holds reusable UI components used throughout the app.
     - `contexts` - Contains context providers for managing state using the Context API.
     - `firebase` - Includes Firebase configuration and services setup.
-    - `hooks` - Houses custom hooks, such as `useFetch` for API data retrieval.
     - `pages` - Contains the different pages/screens of the app.
       - `Home.tsx` - The Chat page where users initiate new message sessions.
       - `Search.tsx` - Component for searching and connecting with other users.
       - `Chat.tsx` - The chat interface where users engage in conversations.
-    - `styles` - Holds styles related to the app's design and UI.
       - `ChakraTheme.ts` - Customizes Chakra UI's theme for consistent styling.
     - `App.ts` - The main entry point of the app, where routing and layout are set up.
     - `main.ts` - Renders the `App` component into the DOM.
-  - `public` - Contains static assets and public files used in the app.
-  - `package.json` - Lists the project's dependencies and scripts.
   - `firebaseConfig.js` - Stores the Firebase configuration (API keys, etc.).
-  - `tsconfig.json` - TypeScript configuration for type checking and compilation.
 
 ### Project deployment
 
@@ -109,12 +110,12 @@ npm run deploy
 
 ### Project screenshots
 
-[chat page](./public/pics1.png)
+ <img src="https://github.com/pscon/Pscon-CareFinder/assets/72552585/c9b2f8e5-3efb-429e-b53b-874722e1f875" alt="register-page" width="900px" height="500px">
+ <img src="https://github.com/pscon/Pscon-CareFinder/assets/72552585/85d9f4" alt="login-page" width="900px" height="500px">
+
 
 <!-- !
-![feeds page](./public/feeds.png)
 
-![post page](./public/post.png)
 
 ![profile page](./public/profile.png) -->
 
