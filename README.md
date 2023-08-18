@@ -100,19 +100,11 @@ GreyNote Chat App is a sleek text messaging platform that enables users to initi
     - `main.ts` - Renders the `App` component into the DOM.
   - `firebaseConfig.js` - Stores the Firebase configuration (API keys, etc.).
 
-### Project deployment
-
-- Deploy the project to Vercel
-
-```bash
-npm run deploy
-```
-
 ### Project screenshots
 
  <img src="https://github.com/pscon/greynote-chat/blob/main/public/pics3.png" alt="register-page" width="900px" height="500px">
  <img src="https://github.com/pscon/greynote-chat/blob/main/public/pics2.png" alt="login-page" width="900px" height="500px">
- <img src="https://github.com/pscon/greynote-chat/blob/main/public/pics1.png" alt="login-page" width="900px" height="500px">
+ <img src="https://github.com/pscon/greynote-chat/blob/main/public/pics1.png" alt="login-page" width="1200px" height="500px">
 
 <!-- !
 
