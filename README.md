@@ -110,9 +110,9 @@ npm run deploy
 
 ### Project screenshots
 
- <img src="[https://github.com/pscon/Pscon-CareFinder/assets/72552585/c9b2f8e5-3efb-429e-b53b-874722e1f875](https://github.com/pscon/greynote-chat/blob/main/public/pics3.png)" alt="register-page" width="900px" height="500px">
- <img src="[https://github.com/pscon/Pscon-CareFinder/assets/72552585/85d9f4](https://github.com/pscon/greynote-chat/blob/main/public/pics2.png)" alt="login-page" width="900px" height="500px">
- <img src="[https://github.com/pscon/Pscon-CareFinder/assets/72552585/85d9f4](https://github.com/pscon/greynote-chat/blob/main/public/pics1.png)" alt="login-page" width="900px" height="500px">
+ <img src="https://github.com/pscon/greynote-chat/blob/main/public/pics3.png" alt="register-page" width="900px" height="500px">
+ <img src="https://github.com/pscon/greynote-chat/blob/main/public/pics2.png" alt="login-page" width="900px" height="500px">
+ <img src="https://github.com/pscon/greynote-chat/blob/main/public/pics1.png" alt="login-page" width="900px" height="500px">
 
 <!-- !
 
