@@ -3,9 +3,9 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
-//   apiKey: process.env.REACT_APP_FIREBASE_KEY,
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
+  // apiKey: import.meta.env.VITE_API_KEY,
+  apiKey: "AIzaSyC0mGwkLr207s2ywH4rv4Yotf_CPIImA5c",
    authDomain: "testing-12-7b733.firebaseapp.com",
   projectId: "testing-12-7b733",
   storageBucket: "testing-12-7b733.appspot.com",
